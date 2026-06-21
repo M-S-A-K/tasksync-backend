@@ -8,7 +8,6 @@ public class TaskItem
     public DateTime Deadline { get; set; }
     public bool IsCompleted { get; set; } = false;
 
-    // Foreign Key Relationships
     public int CourseId { get; set; }
     public Course? Course { get; set; } // Navigation Property
 }
